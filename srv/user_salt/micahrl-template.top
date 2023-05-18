@@ -1,0 +1,17 @@
+# Template for micahrl qube
+#
+# Expected to include items linked to my identity and connected directly to the network
+
+user:
+  dom0:
+    - dom0.vm-micahrl-template
+
+  'micahrl-template-DEV':
+    - templates.micahrl.osconfig
+    - reusable.software-get-gh-release
+    - reusable.software-1password
+    #- reusable.software-codium
+    #- reusable.software-vscode
+    - reusable.software-element
+    - reusable.software-inkdrop
+    #- reusable.software-syncthing

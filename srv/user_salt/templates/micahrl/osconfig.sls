@@ -7,5 +7,9 @@ install-packages-base:
     - pkgs:
       - git
       - jq
+      - python3
+      - python3-pip
+      - python3-venv
+      - rpm
+      - tree
       - vim
-

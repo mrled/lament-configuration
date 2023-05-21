@@ -1,0 +1,42 @@
+
+
+uniservocfg:
+  yarr: matey
+  wasabiid: |
+    -----BEGIN PGP MESSAGE-----
+
+    hQIMAx/fC8crnxGfAQ//XvkUUcEpsTlTWyPnsXtuylqtXLMvHO6sedc4x0jfmJAk
+    lSHJ2y8ciIDuD8PUdR6QIy24k3jHU9OQDyn09YeWPeGpgtyQ7sDDPYWc0Nw1ljr3
+    W4RmlLTSVVA0HH9DZFuHxq3GHEx6MmhEBsIrEh9msIz/IoC3R36AsJm4FOhhTzvN
+    KvwhoUkd6v8pE1MRnZz6n/51lSUKBkOFy0yJjtKBk9aqe3GxutQhw7/bk63l6Gzh
+    ouYyFRZ2Am+MORLhttkxQl3x7r4Tupz5Q3sFHZBVU017BEsYwy2v86SynhQ4X4eU
+    bAj0VhQzxR56uCn9QJdrsiEHp0Tr49QyHTmF/bmiN7WfXwVqEEHkNCb02cJZdrBv
+    23T/LEfln/eJTPwW+nGUFzq9puLoz+S1E8Ig/bLxCaTohgI7RlddYr5rcowIX3Wn
+    xprCm9K/QNcr+tCsf8NfHsypZ3zB07R1QX27eQUP47PgJQ3do9aB99jn4QpiLMe8
+    TBlHvWg8Bu3umU1MDEzJbLURC78+ytsId8mHa22DjGxI52GBD6dNdHynbFeisEWD
+    gfkEKIV+WYOd9ZvA0DP0csYTALohDp/nZaJUhZEnOPncX4CFkWFf5zKWNDY+VkqO
+    TrWinGFqbT18puMqcuMLk6r33CCkRveVvzkSzViikJchs/ZwlvffuT5VL8bgnzXS
+    UAE9yScgZSr3Gw4gQ4o/VssU761KX2UbppYmfyNX7IeK8g53hrH0asHSeKsfhuRe
+    dmag9RDZ16Sqr7gbL9m3CV/3YmexIS/HIVrN8DhgTkyT
+    =MnR5
+    -----END PGP MESSAGE-----
+
+  wasabisecret: |
+    -----BEGIN PGP MESSAGE-----
+
+    hQIMAx/fC8crnxGfAQ/+LbVZIA7xLDmMxXwZtSEnyCGllYS3Xurc30itfFPu1U28
+    dofHJ8m6xiUnuIUlYjgNpESxusFhgDA8/YBwfLMdpJBRqt/sXt7VN7H27bRgDaVV
+    kR9bZAVjLlVDGNNXGIdrPdUl7uVwvKQeBozTxc0gqe6i7DY7dPD2gcZAK15h62gf
+    +5AEf6YjwFBLyqIICNf+QQG+tRRf7wv2k4o888SrgMjo7y2NGpmg8zw4clDwuphu
+    ZrJRzmo9qSpL+EXZMsIysuEV8NtoSda30YdYtRVpXsS1O4RRwwbDeibpWoZBzeKC
+    uOtHoO+PpLVd2/Oaxrbt/C77HxsSVa7enRgOO51CtRWKrQoItAUi16Cidhiw8DXI
+    POIIH1CipQ0QhdV/lfPORWt64WcoYSNJ6vXkC3cix2rS+KDlYGXnS0ocES14b8f5
+    XdpAEUWt+37L1EHq7cbAYqf2bAW/BoSzJlqxqEpg8YMKFGuSK6HiPcKotvVY18Md
+    MyLiXOK9AyyAczzJrnOXZIx+JX4U1TPcPfOrwHBi2E1sfXM2mgsW/FWZKxgcrhrS
+    mYUD3iz1tuk2lsfSVDm+Q1bMJF+coHUITNORDlzxgRdNdhGPXFHdE8+8XtmHW2Rl
+    VmfdMGl9RpTLLRW8tHJq7Ak55+sujVL+lb7+FgRg7COvoUFnl5+K2YPGi6FYNVfS
+    ZAHNJPHoyB6GbNpQ6bavIP4MHBMXwSaxAGh7frWEKPUnblF0/fsc1j4OHFtNj9Un
+    U+JeNE/6gkAucLdlAMR9T4TzoHVmRuJ1pq86ywL0f4BZGlXDSl/1I7D06T0mowZc
+    UTvihYY=
+    =9G0M
+    -----END PGP MESSAGE-----

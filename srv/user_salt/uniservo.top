@@ -1,0 +1,17 @@
+# Uniservo qube and template
+# Destination for Qubes backups
+# Named after a very old tape drive product
+
+user:
+  dom0:
+    - hypervisor.templates.uniservo
+
+  'uniservo-template':
+    - vms.templates.uniservo.osconfig
+
+  dom0:
+    - hypervisor.appvms.uniservo
+
+  uniservo:
+    - vms.appvms.uniservo
+

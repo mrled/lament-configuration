@@ -111,8 +111,9 @@ we don't really need this in this case, so we set it to 0.
 * Top files are a Salt thing, typically called `top.sls`
 * Qubes has its own convention of having top files called `whatever.top`
   but AFAICT they work the same way
-* In Quebes, each top file must be enabled with `qubesctl top.enable whatever`
+* In Qubes, each top file must be enabled with `qubesctl top.enable whatever`
   (omit the `.top` extension)
+* Note that this is all top files, including ones you might create in `/etc/user_pillar` !
 * Qubes top files must contain the environment (`user`), a list of machines,
   and then may reference other state files.
 * Other state files are referenced by directory, like `reusable/software/vscode.sls`
@@ -127,3 +128,38 @@ user: # The name of the environment, which is 'user'
   somevm: # The name of another machine
     reusable.software.vscode # Looks for a file called reusable/software/vscode.sls
 ```
+
+## Directory layout
+
+```text
+/srv
+  /user_salt
+    /hypervisor
+      (VM creation etc, executes on dom0 to control the hypervisor)
+      (commands in this section run states like qvm.clone and qvm.prefs)
+      /appvms
+      /templates
+    /reusable
+      (reusable state files, referenced in other state files)
+    /vms
+      (VM configuration etc, executes in each VM to configure it)
+      /appvms
+      /dom0
+        (Configure the dom0 VM, eg by installing packages)
+      /templates
+  (... top files etc)
+```
+
+## Encrypting data
+
+It's useful to keep this repo in Git, maybe even stored on github or other remote service,
+but to do this we need a secure way to store secrets.
+
+* Generate a GPG key, I couldn't do this in dom0 because it complained about pinentry, whatever. You probably want to do `gpg --full-generate-key` so you have control over encryption algorithms and expiration. I used the full name `hyperqube` and did not enter an email address.
+* Copy it to dom0 and import it.
+* Save it somewhere like a password manager (for backups etc)
+* Remove the secret key to your builder VM if you didn't generate it in dom0.
+* Copy the public key to your builder VM
+* Encrypt secrets with that: `echo "secretvalue" | gpg --encrypt --armor --recipient hyperqube > secretvalue.asc`
+
+<https://fabianlee.org/2016/10/18/saltstack-keeping-salt-pillar-data-encrypted-using-gpg/>

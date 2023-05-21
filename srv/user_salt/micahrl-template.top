@@ -4,10 +4,10 @@
 
 user:
   dom0:
-    - dom0.vm-micahrl-template
+    - hypervisor.templates.micahrl
 
   'micahrl-template-DEV':
-    - templates.micahrl.osconfig
+    - vms.templates.micahrl.osconfig
     - reusable.software-get-gh-release
     - reusable.software-1password
     #- reusable.software-codium

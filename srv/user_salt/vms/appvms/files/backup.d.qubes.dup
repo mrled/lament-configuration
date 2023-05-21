@@ -1,0 +1,19 @@
+# Back up data from qvm-backup stored in /home/user/qvm-backup
+# to a remote host over SSH using Duplicity.
+
+[source]
+include = /home/user/qvm-backups
+
+[dest]
+incremental = yes
+
+# number of days of incremental backups to keep before doing a full
+incremements = 30
+
+# how many days of data (incremental or full backups) do we keep data for
+keep = yes
+
+# how many full backups do we also keep incremements for
+keepincroffulls = 5
+
+desturl = sftp://backups-hyperqube@chenoska.home.micahrl.com
